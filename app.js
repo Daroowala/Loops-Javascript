@@ -16,9 +16,9 @@
     //}
 //}
 
-for(var i = 1; i > 0; i++){
-    if(i === 20){
-        break
-    }
-    console.log(i)
-}
+// for(var i = 1; i > 0; i++){
+//     if(i === 20){
+//         break
+//     }
+//     console.log(i)
+// }
