@@ -46,10 +46,25 @@
 //   }
 // }
 
-// stars loop
-for (var i = 0; i < 10; i++){
-  for (var j = 0; j < i; j++){
-    document.write("*")
-  }
-  document.write("<br>")
+// // stars loop
+// for (var i = 0; i < 10; i++){
+//   for (var j = 0; j < i; j++){
+//     document.write("*")
+//   }
+//   document.write("<br>")
+// }
+ 
+// Palidrome words. ya humaa loops ko reverse chalana batayaga
+var word = prompt("Enter a word");
+var check = "";
+for(var i = word.length -1; i >= 0; i--){
+check += word[i]
+} 
+if(word === check)
+{  
+  document.write(word + " is palidrome word");
 }
+else{
+  document.write(word + " is not palidrome word")
+}
+
