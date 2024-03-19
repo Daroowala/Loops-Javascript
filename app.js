@@ -8,20 +8,20 @@
   //  console.log(names[i])
 //}
 
-//var cities = ["Lahore", "Islamabad", "Karachi", "Rawalpindi", "Quetta"];
+// var cities = ["Lahore", "Islamabad", "Karachi", "Rawalpindi", "Quetta"];
 
-//for(var i = 0; i < cities.length; i++){
-  //  if(cities[i] === "Karachi"){
-    //    alert(cities[i] + " is the city of lights")
-    //}
-//}
-
-// for(var i = 1; i > 0; i++){
-//     if(i === 20){
-//         break
+// for(var i = 0; i < cities.length; i++){
+//    if(cities[i] === "Karachi"){
+//        alert(cities[i] + " is the city of lights")
 //     }
-//     console.log(i)
 // }
+
+for(var i = 1; i > 0; i++){
+    if(i === 10){
+        break
+    }
+    console.log(i)
+}
 
 // for (var i = 0; i < 2; i++)
 // for (var j = 0; j < 2; j++)
@@ -36,9 +36,9 @@
 // }
 // }
 
-for (var i = 0; i < 10; i++){
-  for (var j = 0; j < i; j++){
-    document.write("*")
-  }
-  document.write("<br>")
-}
+// for (var i = 0; i < 10; i++){
+//   for (var j = 0; j < i; j++){
+//     document.write("*")
+//   }
+//   document.write("<br>")
+// }
