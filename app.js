@@ -53,18 +53,32 @@
 //   }
 //   document.write("<br>")
 // }
- 
-// Palidrome words. ya humaa loops ko reverse chalana batayaga
-var word = prompt("Enter a word");
-var check = "";
-for(var i = word.length -1; i >= 0; i--){
-check += word[i]
-} 
-if(word === check)
-{  
-  document.write(word + " is palidrome word");
-}
-else{
-  document.write(word + " is not palidrome word")
-}
 
+
+// Palidrome words. ya humaa loops ko reverse chalana batayaga
+// var word = prompt("Enter a word");
+// var check = "";
+// for(var i = word.length -1; i >= 0; i--){
+// check += word[i]
+// } 
+// if(word === check)
+// {  
+//   document.write(word + " is palidrome word");
+// }
+// else{
+//   document.write(word + " is not palidrome word")
+// }
+
+
+// convert in to lower and uppercase
+// var name = "REHAN";
+
+// name  = name.toLowerCase();
+
+// document.write(name)
+
+var  newName = "Kamran";
+
+newName = newName.toUpperCase();
+
+document.write(newName)
