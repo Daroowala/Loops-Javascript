@@ -16,17 +16,18 @@
 //     }
 // }
 
-for(var i = 1; i > 0; i++){
-    if(i === 10){
-        break
-    }
-    console.log(i)
-}
+// for(var i = 1; i > 0; i++){
+//     if(i === 10){
+//         break
+//     }
+//     console.log(i)
+// }
 
-// for (var i = 0; i < 2; i++)
-// for (var j = 0; j < 2; j++)
-// for (var h = 0; h < 2; h++)
+// for (var i = 0; i < 5; i++)
+// for (var j = 0; j < 3; j++)
+// {
 // document.write(j +"Pakistan Zindabad" + "<br>")
+// }
 
 // var firstName = ["Ghous", "Basit", "Fahad"]
 // var lastName = ["Ahmed", "Khan"]
@@ -35,6 +36,16 @@ for(var i = 1; i > 0; i++){
 // console.log(firstName[i] + " " + lastName[j])
 // }
 // }
+
+// Table
+for (var i = 2; i <= 3; i++) { 
+  for (var j = 1; j <= 10; j++) {  
+      var product = i * j;
+    
+      console.log(i + " * " + j + " = " + product);
+  }
+}
+
 
 // for (var i = 0; i < 10; i++){
 //   for (var j = 0; j < i; j++){
