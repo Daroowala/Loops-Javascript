@@ -38,18 +38,18 @@
 // }
 
 // Table
-for (var i = 2; i <= 3; i++) { 
-  for (var j = 1; j <= 10; j++) {  
-      var product = i * j;
+// for (var i = 2; i <= 5; i++) { 
+//   for (var j = 1; j <= 10; j++) {  
+//       var product = i * j;
     
-      console.log(i + " * " + j + " = " + product);
-  }
-}
-
-
-// for (var i = 0; i < 10; i++){
-//   for (var j = 0; j < i; j++){
-//     document.write("*")
+//       console.log(i + " * " + j + " = " + product);
 //   }
-//   document.write("<br>")
 // }
+
+// stars loop
+for (var i = 0; i < 10; i++){
+  for (var j = 0; j < i; j++){
+    document.write("*")
+  }
+  document.write("<br>")
+}
